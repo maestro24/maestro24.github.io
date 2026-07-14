@@ -1,0 +1,21 @@
+# 데일리툴 (maestro24.github.io)
+
+> 설치·회원가입 없이 브라우저에서 바로 쓰는 무료 온라인 도구 모음. 계산·변환·문서·이미지 도구를 한곳에 모았습니다. 대부분의 처리는 사용자 브라우저 안에서 이뤄져 파일이 서버로 전송되지 않습니다.
+
+## 도구 목록
+
+- [연봉계산소](https://maestro24.github.io/salarylab/): 연봉 실수령액·월급 세후 금액 계산기. 4대보험·소득세 반영.
+- [머니시뮬](https://maestro24.github.io/moneysim/): 은퇴자금·복리·배당·대출·목표금액 재테크 시뮬레이션 계산기.
+- [바로변환](https://maestro24.github.io/baroconvert/): 길이·무게·온도·데이터·환율 등 단위·파일 변환기.
+- [바로PDF](https://maestro24.github.io/baropdf/): PDF 합치기·분할·압축·JPG 변환. 파일 서버 전송 없음.
+- [누끼랩](https://maestro24.github.io/nukkilab/): AI 사진 배경 제거(누끼)·증명사진 만들기. 브라우저에서 처리.
+- [자소서랩](https://maestro24.github.io/jasolab/): 자기소개서 문항별 작성 가이드·글자수 세기(공백 포함/제외).
+- [주식달력](https://maestro24.github.io/stockcal/): 공모주 청약 일정·배당락일·실적발표일 증시 캘린더.
+- [다모아툴](https://maestro24.github.io/damoatool/): 사다리타기·룰렛·랜덤 뽑기·타이머 생활 도구 모음.
+- [꼬들](https://maestro24.github.io/kkodle/): 매일 한 판 한글 단어 맞히기 게임(한글판 워들).
+
+## 특징
+
+- 무료, 설치 불필요, 회원가입 불필요.
+- 모바일·PC 브라우저에서 바로 실행.
+- 다수 도구가 클라이언트(브라우저) 처리 방식이라 개인 파일이 외부로 전송되지 않음.

@@ -1,0 +1,25 @@
+# 데일리툴 루트 허브 — 전체 허용 (검색엔진 + AI 크롤러)
+User-agent: *
+Allow: /
+
+# 네이버 검색로봇
+User-agent: Yeti
+Allow: /
+
+# AI 검색 크롤러 명시 허용
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+Sitemap: https://maestro24.github.io/sitemap.xml
