@@ -11,6 +11,8 @@
 - [누끼랩](https://maestro24.github.io/nukkilab/): AI 사진 배경 제거(누끼)·증명사진 만들기. 브라우저에서 처리.
 - [기저귀랩](https://maestro24.github.io/diaperlab/): 기저귀 사이즈 추천·브랜드별 장당 단가 비교·월 소비량 계산.
 - [교체알리미](https://maestro24.github.io/replacelab/): 정수기 필터·면도날·렌즈 등 소모품 교체주기·D-day 알림.
+- [사료계산기](https://maestro24.github.io/petfeed/): 강아지·고양이 하루 사료 급여량(RER/DER)·월 소요량 계산.
+- [김장계산기](https://maestro24.github.io/kimjang/): 배추 포기 수로 김장 양념·재료 수량 자동 계산.
 - [자소서랩](https://maestro24.github.io/jasolab/): 자기소개서 문항별 작성 가이드·글자수 세기(공백 포함/제외).
 - [주식달력](https://maestro24.github.io/stockcal/): 공모주 청약 일정·배당락일·실적발표일 증시 캘린더.
 - [다모아툴](https://maestro24.github.io/damoatool/): 사다리타기·룰렛·랜덤 뽑기·타이머 생활 도구 모음.
