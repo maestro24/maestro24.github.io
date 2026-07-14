@@ -13,6 +13,11 @@
 - [교체알리미](https://maestro24.github.io/replacelab/): 정수기 필터·면도날·렌즈 등 소모품 교체주기·D-day 알림.
 - [사료계산기](https://maestro24.github.io/petfeed/): 강아지·고양이 하루 사료 급여량(RER/DER)·월 소요량 계산.
 - [김장계산기](https://maestro24.github.io/kimjang/): 배추 포기 수로 김장 양념·재료 수량 자동 계산.
+- [토너파인더](https://maestro24.github.io/tonerfinder/): 프린터 모델로 호환 토너·잉크 카트리지 검색.
+- [배터리규격](https://maestro24.github.io/carbattery/): 차종·연식으로 자동차 배터리 규격·호환 조회.
+- [커튼사이즈](https://maestro24.github.io/curtainsize/): 창 치수로 커튼 폭·기장·커튼봉 길이 계산.
+- [영양제궁합](https://maestro24.github.io/supplecheck/): 영양제 중복 성분·궁합·복용 시간대 체크.
+- [출산준비물](https://maestro24.github.io/babyprep/): 출산예정일로 시기별 육아용품 타임라인·체크리스트.
 - [자소서랩](https://maestro24.github.io/jasolab/): 자기소개서 문항별 작성 가이드·글자수 세기(공백 포함/제외).
 - [주식달력](https://maestro24.github.io/stockcal/): 공모주 청약 일정·배당락일·실적발표일 증시 캘린더.
 - [다모아툴](https://maestro24.github.io/damoatool/): 사다리타기·룰렛·랜덤 뽑기·타이머 생활 도구 모음.
