@@ -1,0 +1,185 @@
+{
+  "note": "300project 사이트 레지스트리 — propagate.mjs / check-freshness.mjs의 소스 오브 트루스. coupang: 쿠팡 배너/CTA 존재 여부(고지문 의무 발생). freshness: 데이터 파일별 최대 허용 나이(일).",
+  "ga4Id": "G-2P73L29BH7",
+  "trackingCode": "AF8748009",
+  "sites": [
+    {
+      "name": "salarylab",
+      "coupang": true,
+      "freshness": [
+        {
+          "file": "data/rates.json",
+          "maxAgeDays": 180,
+          "label": "간이세액표·4대보험 요율 (매년 1월 개정, 연금 상하한 2027-06-30 만료)",
+          "risk": "HIGH"
+        }
+      ]
+    },
+    {
+      "name": "nohoolab",
+      "coupang": false,
+      "freshness": [
+        {
+          "file": "data/params-2026.json",
+          "maxAgeDays": 180,
+          "label": "국민연금 A값·요율·기초연금 기준액 (매년 1월 교체)",
+          "risk": "HIGH"
+        }
+      ]
+    },
+    {
+      "name": "baroconvert",
+      "coupang": true,
+      "freshness": [
+        {
+          "file": "data/rates.json",
+          "maxAgeDays": 3,
+          "label": "환율 (일일 자동갱신 — 3일 넘으면 워크플로 죽음)",
+          "risk": "HIGH"
+        }
+      ]
+    },
+    {
+      "name": "stockcal",
+      "coupang": true,
+      "freshness": [
+        {
+          "file": "data/ipo.json",
+          "maxAgeDays": 3,
+          "label": "공모주 일정 (일일 자동갱신 감시)",
+          "risk": "HIGH"
+        },
+        {
+          "file": "data/dividend.json",
+          "maxAgeDays": 3,
+          "label": "배당 일정 (일일 자동갱신 감시)",
+          "risk": "HIGH"
+        }
+      ]
+    },
+    {
+      "name": "jasolab",
+      "coupang": true,
+      "freshness": [
+        {
+          "file": "data/presets.json",
+          "maxAgeDays": 180,
+          "label": "기업 자소서 문항·글자수 (채용 시즌마다 변경)",
+          "risk": "MEDIUM"
+        }
+      ]
+    },
+    {
+      "name": "tonerfinder",
+      "coupang": true,
+      "freshness": [
+        {
+          "file": "data/printers.json",
+          "maxAgeDays": 180,
+          "label": "프린터·카트리지 매핑",
+          "risk": "MEDIUM"
+        }
+      ]
+    },
+    {
+      "name": "carbattery",
+      "coupang": true,
+      "freshness": [
+        {
+          "file": "data/cars.json",
+          "maxAgeDays": 180,
+          "label": "차종별 배터리 규격",
+          "risk": "MEDIUM"
+        }
+      ]
+    },
+    {
+      "name": "nukkilab",
+      "coupang": true,
+      "freshness": [
+        {
+          "file": "data/specs.json",
+          "maxAgeDays": 365,
+          "label": "증명사진 규격 (외교부 규정)",
+          "risk": "LOW"
+        }
+      ]
+    },
+    {
+      "name": "replacelab",
+      "coupang": true,
+      "freshness": [
+        {
+          "file": "data/items.json",
+          "maxAgeDays": 365,
+          "label": "소모품 교체주기",
+          "risk": "LOW"
+        }
+      ]
+    },
+    {
+      "name": "supplecheck",
+      "coupang": true,
+      "freshness": [
+        {
+          "file": "data/supplements.json",
+          "maxAgeDays": 365,
+          "label": "영양제 권장량·상호작용",
+          "risk": "LOW"
+        }
+      ]
+    },
+    {
+      "name": "babyprep",
+      "coupang": true,
+      "freshness": [
+        {
+          "file": "data/checklist.json",
+          "maxAgeDays": 365,
+          "label": "출산준비물 리스트",
+          "risk": "LOW"
+        }
+      ]
+    },
+    {
+      "name": "diaperlab",
+      "coupang": true,
+      "freshness": []
+    },
+    {
+      "name": "petfeed",
+      "coupang": true,
+      "freshness": []
+    },
+    {
+      "name": "kimjang",
+      "coupang": true,
+      "freshness": []
+    },
+    {
+      "name": "curtainsize",
+      "coupang": true,
+      "freshness": []
+    },
+    {
+      "name": "moneysim",
+      "coupang": true,
+      "freshness": []
+    },
+    {
+      "name": "baropdf",
+      "coupang": true,
+      "freshness": []
+    },
+    {
+      "name": "damoatool",
+      "coupang": true,
+      "freshness": []
+    },
+    {
+      "name": "kkodle",
+      "coupang": true,
+      "freshness": []
+    }
+  ]
+}
