@@ -32,9 +32,9 @@ node tools/check-freshness.mjs --fail # cron/CI용 (초과 시 exit 1)
 - propagate 후 각 사이트는 독립 repo라서 **개별 commit/push 필요.** push가 곧 배포(GH Pages).
 - 신규 사이트는 `.claude/skills/new-tool-site` 스킬로 생성 → sites.json 등록까지가 완성.
 
-## 알려진 잔여 이슈 (2026-07-19 감사)
-- 유령 coupang.js 4개: curtainsize, diaperlab, kimjang, petfeed — 파일은 있는데 HTML이 로드 안 함 (링크는 하드코딩으로 동작 중). 삭제 또는 로드 전환 결정 필요.
-- 링크 코드 불일치: diaperlab (js `fnv2guqgGO` vs html `fnvVW9OMs8`), replacelab (js `fnxIjnErXE` vs html `flCfhuxEJM`) — 어느 쪽이 canonical인지 확인 필요.
-- baroconvert 리프 ~374페이지 무수익화 (허브 43페이지만 쿠팡 있음) — generate.py 수정으로 확장 가능.
+## 알려진 잔여 이슈 (2026-07-19 감사, 07-19 저녁 재검증으로 일부 정정)
+- ~~유령 coupang.js 4개~~ **오탐 정정**: curtainsize/diaperlab/kimjang/petfeed 전부 페이지 모듈이 `import { renderCta } from "../coupang.js"`로 로드 중. 최초 감사가 index.html script 태그만 확인한 것. 삭제 금지.
+- ~~링크 코드 불일치~~ **버그 아님**: html 하드코딩 링크 = 배너 배치용, coupang.js 링크 = CTA 딥링크용. 서로 다른 발급 링크가 맞는 구조 (diaperlab, replacelab 동일).
+- baroconvert 리프 ~374페이지 무광고는 **의도적 결정** (generate.py 주석: "수치 페이지 제외 — 씬 페이지+광고 = 저품질 신호"). 리프에 광고 추가 금지. 대신 콘텐츠 두꺼운 index/카테고리 허브만 수익화 (2026-07-19 적용).
 - damoatool index 무수익화, nohoolab 전체 무수익화 (의도인지 확인).
 - GA4 단일 속성 공유 — 사이트별 분리는 GA4에서 hostname 필터로 가능.
